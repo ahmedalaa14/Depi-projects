@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #353330;
+    color: white;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header nav ul li {
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 24px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.about {
+    display: flex;
+    padding: 50px 10%;
+    background-color: #f4f4f4;
+}
+
+.about img {
+    width: 40%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-text .info p {
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #353330;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #8F7854;
+}
+
+.services {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service {
+    display: inline-block;
+    width: 22%;
+    margin: 0 1%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+.portfolio {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.portfolio-item {
+    display: inline-block;
+    width: 22%;
+    margin: 0 1%;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.clients {
+    padding: 50px 10%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.clients h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.client-feedback {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.client-feedback img {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.client-feedback h3 {
+    margin: 0;
+}
+
+.client-feedback p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.client-feedback .rating {
+    font-size: 18px;
+    color: #FFD700;
+}
+
+.blog {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.blog-post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.contact {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: inline-block;
+    width: 60%;
+}
+
+.contact input, .contact textarea {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 1%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact textarea {
+    height: 100px;
+}
+
+.contact .button {
+    width: 100%;
+    padding: 15px;
+    background-color: #353330;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #353330;
+    color: white;
+    text-align: center;
+    padding: 20px 10%;
+}
+
+footer .social a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about img {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .about-text {
+        flex: none;
+    }
+    .service, .portfolio-item, .client-feedback, .blog-post {
+        width: 45%;
+        margin: 2.5%;
+    }
+    .contact form {
+        width: 100%;
+    }
+    .contact input, .contact textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service, .portfolio-item, .client-feedback, .blog-post {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
