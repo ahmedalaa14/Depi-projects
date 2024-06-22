@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-margin-block-start: 110px;
+    scroll-margin-block-end: 110px;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-family: "Alegreya Sans", sans-serif;
+}
+h1,h2,h3,h5{
+    font-family: "Alegreya", serif;
+}
+
+.settings{
+    position: fixed;
+    top: 200px;
+    right: 0;
+    background-color: #f8f8f8;
+    padding: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 3;
+    height: 100px;
+    width: 50px;
+    overflow: hidden;
+}
+.settings img{
+    display: block;
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.navbar {
+    background-color: 353330; 
+    height: 15%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar img {
+    height: 50%; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    display: flex; 
+}
+.navbar li {
+    margin-right: 20px; 
+}
+
+.navbar li a {
+    text-decoration: none; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-size: large;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+}
+
+.navbar li a:hover {
+    color: #8F7854; 
+}
+
+.welcome{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+   
+}
+.welcome h1{
+    font-size: 70px;
+    margin: 30px;
+    font-family: "Alegreya", serif;
+}
+
+.welcome p,h3{
+    margin: 30px;
+    color: gray;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.welcome p{
+    font-size: 20px;
+}
+
+.welcome button{
+    padding: 30px;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    background-color: black;
+}
+.buttons{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+
+.welcome button:hover{
+    color: black;
+    background-color: white;
+}
+
+.parent{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFC;
+    width: 100%;
+}
+.container1{   
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin: auto;
+    font-family: "Alegreya", serif;
+}
+.container1 img{
+    left: 0;
+    margin-right: 30px;
+    width: 45%;
+}
+.divWhoWeAre{
+    flex: 1;
+
+}
+
+.divWhoWeAre_list{
+    display: flex;
+    align-items: center;
+}
+
+.divWhoWeAre_list img{
+    width: 5%;
+    margin-right: 10px;
+}
+.divWhoWeAre_list p {
+    font-size: 14px;
+    color: gray;
+    font-family: "Alegreya Sans", sans-serif;
+}
+.divWhoWeAre p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: gray;
+    font-family: "Alegreya Sans", sans-serif;
+}
+.divWhoWeAre h2 {
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.outer{
+    display: block;
+    background-color: #353330;
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+}
+.outer p{
+    color: #636666;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    margin: 10px
+}
+
+.links a i{
+    font-size: 30px;
+    color: #8F754F;
+}
+
+
+
+.ourBaking{
+    scroll-margin-block-start: 200px;
+    scroll-margin-block-end: 200px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.ourBaking h2{
+    font-size: 50px;
+}
+
+.ourBaking p{
+    font-size: large;
+    font-family: "Alegreya Sans", sans-serif;
+    margin: 10px;
+}
+.container{
+    display: inline-block;
+    width: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container img{
+    margin-top: 0px;
+    width: 95%;
+}
+
+.container h3{
+    font-size: 25px;
+}
+
+.outerContainer {
+    padding: 100px; 
+    background-color: #403D38; 
+}
+
+.about {
+    display: inline-block;
+    width: 17%;
+    vertical-align: top;
+    /* flex: 1 1 300px; */
+    padding: 10px;
+    margin: auto;
+}
+
+.about h2 {
+    color: #f8f8f8;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #898885;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.options img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contactContainer{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    background-color: #F8F9FA;
+
+}
+
+.contacvtInformation{
+    display: inline-block;
+    width: 50%;
+}
+
+.contactDetails{
+    display: flex;
+    align-items: center;
+}
+
+.contactDetails img{
+    margin-right: 20px ;
+    width: 5%;
+}
+.contactDetails p{
+    display: inline;
+}
+
+.contactContainer iframe{
+    width: 50%;
+    height: 400px;
+    margin-left: 100px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contacvtInformation h3{
+    font-family: "Alegreya", serif;
+    color: black;
+    font-size: 50px;
+    margin-left: 0;
+}
+
+.contacvtInformation p{
+    font-size: 20px;
+    color: #717478;
+}
+
+.contacvtInformation h5{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #717478;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .container1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container1 img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .divWhoWeAre_list img {
+        width: 10%;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar img {
+        margin-left: 20px;
+    }
+
+    .welcome {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .welcome h1 {
+        font-size: 50px;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contactContainer iframe {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .container1 {
+        padding: 50px;
+    }
+}
+
