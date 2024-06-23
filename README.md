@@ -19,4 +19,8 @@ This repository contains All the Projects That I developed as part of the DEPI P
 
 ## Contribution
 
+<<<<<<< HEAD
 - Contributions are welcome! Please fork this repository and submit a pull request for any feature additions or bug fixes.
+=======
+Contributions are welcome! Please fork this repository and submit a pull request for any feature additions or bug fixes.
+>>>>>>> dee0b770f284758e093d9cf2ea00473a51dd3e02
