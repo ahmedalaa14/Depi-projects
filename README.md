@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains All the Projects That I developed as part of the DEPI Projects . The Internship demonstrates proficiency in a variety of web technologies and showcases a comprehensive understanding of both front-end and back-end development.
+This repository contains All the Projects That I developed as part of the DEPI Projects. The Internship demonstrates proficiency in a variety of web technologies and showcases a comprehensive understanding of both front-end and back-end development.
 
 ## Technologies Used
 
@@ -19,8 +19,4 @@ This repository contains All the Projects That I developed as part of the DEPI P
 
 ## Contribution
 
-<<<<<<< HEAD
 - Contributions are welcome! Please fork this repository and submit a pull request for any feature additions or bug fixes.
-=======
-Contributions are welcome! Please fork this repository and submit a pull request for any feature additions or bug fixes.
->>>>>>> dee0b770f284758e093d9cf2ea00473a51dd3e02
